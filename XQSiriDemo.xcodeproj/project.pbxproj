@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27B6C549C55E2F0DF552B1E4 /* Pods_XQSiriDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3049AFF9F635037D3194A307 /* Pods_XQSiriDemo.framework */; };
+		58CB720062F3E9DFDA8F9B29 /* Pods_XQSiriDemoIntents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E876A54A3A9DF23200B2C7 /* Pods_XQSiriDemoIntents.framework */; };
+		A40A4A9D233DB18200BE6C0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A4A9C233DB18200BE6C0B /* AppDelegate.swift */; };
+		A40A4A9F233DB18200BE6C0B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A4A9E233DB18200BE6C0B /* ViewController.swift */; };
+		A40A4AA4233DB18300BE6C0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A40A4AA3233DB18300BE6C0B /* Assets.xcassets */; };
+		A40A4AA7233DB18300BE6C0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40A4AA5233DB18300BE6C0B /* LaunchScreen.storyboard */; };
+		A40A4AB5233DB1A700BE6C0B /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A4AB4233DB1A700BE6C0B /* IntentHandler.swift */; };
+		A40A4ABE233DB1A700BE6C0B /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A40A4ABD233DB1A700BE6C0B /* IntentsUI.framework */; };
+		A40A4AC1233DB1A700BE6C0B /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A40A4AC0233DB1A700BE6C0B /* IntentViewController.swift */; };
+		A40A4AC4233DB1A700BE6C0B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A40A4AC2233DB1A700BE6C0B /* MainInterface.storyboard */; };
+		A40A4AC8233DB1A700BE6C0B /* XQSiriDemoIntentsUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A40A4ABB233DB1A700BE6C0B /* XQSiriDemoIntentsUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A40A4ACB233DB1A700BE6C0B /* XQSiriDemoIntents.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A40A4AB2233DB1A700BE6C0B /* XQSiriDemoIntents.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A41A4720233F44B300D7B8CB /* XQIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A41A471F233F44B300D7B8CB /* XQIntents.intentdefinition */; };
+		A41A472C233F544500D7B8CB /* test111.png in Resources */ = {isa = PBXBuildFile; fileRef = A41A472B233F544400D7B8CB /* test111.png */; };
+		A41A472F233F558A00D7B8CB /* test222.png in Resources */ = {isa = PBXBuildFile; fileRef = A41A472E233F558A00D7B8CB /* test222.png */; };
+		A4AA1D32233F3ADD00D2C02E /* XQAllVoiceShortcutsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA1D31233F3ADD00D2C02E /* XQAllVoiceShortcutsVC.swift */; };
+		A4EE5A60233EEFB50077B54D /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A4EE5A5F233EEFB50077B54D /* Intents.intentdefinition */; };
+		E00A7D1781EA95504F616C75 /* Pods_XQSiriDemoIntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E5B2661A69501A99E83D97 /* Pods_XQSiriDemoIntentsUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A40A4AC6233DB1A700BE6C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A40A4A91233DB18200BE6C0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A40A4ABA233DB1A700BE6C0B;
+			remoteInfo = XQSiriDemoIntentsUI;
+		};
+		A40A4AC9233DB1A700BE6C0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A40A4A91233DB18200BE6C0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A40A4AB1233DB1A700BE6C0B;
+			remoteInfo = XQSiriDemoIntents;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A40A4AD2233DB1A700BE6C0B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A40A4AC8233DB1A700BE6C0B /* XQSiriDemoIntentsUI.appex in Embed App Extensions */,
+				A40A4ACB233DB1A700BE6C0B /* XQSiriDemoIntents.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A41A471E233F448900D7B8CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3049AFF9F635037D3194A307 /* Pods_XQSiriDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XQSiriDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E876A54A3A9DF23200B2C7 /* Pods_XQSiriDemoIntents.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XQSiriDemoIntents.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B121221CC2D5190209D7336 /* Pods-XQSiriDemoIntents.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQSiriDemoIntents.release.xcconfig"; path = "Target Support Files/Pods-XQSiriDemoIntents/Pods-XQSiriDemoIntents.release.xcconfig"; sourceTree = "<group>"; };
+		8E7AE6EEFA937DDD40460F6B /* Pods-XQSiriDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQSiriDemo.debug.xcconfig"; path = "Target Support Files/Pods-XQSiriDemo/Pods-XQSiriDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		9206867A3585DAE66ED86869 /* Pods-XQSiriDemoIntentsUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQSiriDemoIntentsUI.debug.xcconfig"; path = "Target Support Files/Pods-XQSiriDemoIntentsUI/Pods-XQSiriDemoIntentsUI.debug.xcconfig"; sourceTree = "<group>"; };
+		98D531AC540AE57BEBD863D6 /* Pods-XQSiriDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQSiriDemo.release.xcconfig"; path = "Target Support Files/Pods-XQSiriDemo/Pods-XQSiriDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A40A4A99233DB18200BE6C0B /* XQSiriDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XQSiriDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40A4A9C233DB18200BE6C0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A40A4A9E233DB18200BE6C0B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A40A4AA3233DB18300BE6C0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A40A4AA6233DB18300BE6C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A40A4AA8233DB18300BE6C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40A4AB2233DB1A700BE6C0B /* XQSiriDemoIntents.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XQSiriDemoIntents.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40A4AB4233DB1A700BE6C0B /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		A40A4AB6233DB1A700BE6C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A40A4ABB233DB1A700BE6C0B /* XQSiriDemoIntentsUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XQSiriDemoIntentsUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A40A4ABD233DB1A700BE6C0B /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		A40A4AC0233DB1A700BE6C0B /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		A40A4AC3233DB1A700BE6C0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A40A4AC5233DB1A700BE6C0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41A471F233F44B300D7B8CB /* XQIntents.intentdefinition */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.intentdefinition; path = XQIntents.intentdefinition; sourceTree = "<group>"; };
+		A41A472B233F544400D7B8CB /* test111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test111.png; sourceTree = "<group>"; };
+		A41A472E233F558A00D7B8CB /* test222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test222.png; sourceTree = "<group>"; };
+		A4AA1D31233F3ADD00D2C02E /* XQAllVoiceShortcutsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XQAllVoiceShortcutsVC.swift; sourceTree = "<group>"; };
+		A4EE5A5E233EEF390077B54D /* XQSiriDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XQSiriDemo.entitlements; sourceTree = "<group>"; };
+		A4EE5A5F233EEFB50077B54D /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		E6E5B2661A69501A99E83D97 /* Pods_XQSiriDemoIntentsUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XQSiriDemoIntentsUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB75DA3CDB4751EDB7E3397D /* Pods-XQSiriDemoIntents.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQSiriDemoIntents.debug.xcconfig"; path = "Target Support Files/Pods-XQSiriDemoIntents/Pods-XQSiriDemoIntents.debug.xcconfig"; sourceTree = "<group>"; };
+		FE43D2936D23406AADD98525 /* Pods-XQSiriDemoIntentsUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XQSiriDemoIntentsUI.release.xcconfig"; path = "Target Support Files/Pods-XQSiriDemoIntentsUI/Pods-XQSiriDemoIntentsUI.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40A4A96233DB18200BE6C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27B6C549C55E2F0DF552B1E4 /* Pods_XQSiriDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40A4AAF233DB1A700BE6C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58CB720062F3E9DFDA8F9B29 /* Pods_XQSiriDemoIntents.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40A4AB8233DB1A700BE6C0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A4ABE233DB1A700BE6C0B /* IntentsUI.framework in Frameworks */,
+				E00A7D1781EA95504F616C75 /* Pods_XQSiriDemoIntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A40A4A90233DB18200BE6C0B = {
+			isa = PBXGroup;
+			children = (
+				A40A4A9B233DB18200BE6C0B /* XQSiriDemo */,
+				A40A4AB3233DB1A700BE6C0B /* XQSiriDemoIntents */,
+				A40A4ABF233DB1A700BE6C0B /* XQSiriDemoIntentsUI */,
+				A40A4ABC233DB1A700BE6C0B /* Frameworks */,
+				A40A4A9A233DB18200BE6C0B /* Products */,
+				F43D0E18EC383F05E0CB2DD1 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A40A4A9A233DB18200BE6C0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A40A4A99233DB18200BE6C0B /* XQSiriDemo.app */,
+				A40A4AB2233DB1A700BE6C0B /* XQSiriDemoIntents.appex */,
+				A40A4ABB233DB1A700BE6C0B /* XQSiriDemoIntentsUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A40A4A9B233DB18200BE6C0B /* XQSiriDemo */ = {
+			isa = PBXGroup;
+			children = (
+				A4EE5A5E233EEF390077B54D /* XQSiriDemo.entitlements */,
+				A40A4A9C233DB18200BE6C0B /* AppDelegate.swift */,
+				A40A4A9E233DB18200BE6C0B /* ViewController.swift */,
+				A4AA1D31233F3ADD00D2C02E /* XQAllVoiceShortcutsVC.swift */,
+				A41A471F233F44B300D7B8CB /* XQIntents.intentdefinition */,
+				A4EE5A5F233EEFB50077B54D /* Intents.intentdefinition */,
+				A41A472E233F558A00D7B8CB /* test222.png */,
+				A41A472B233F544400D7B8CB /* test111.png */,
+				A40A4AA3233DB18300BE6C0B /* Assets.xcassets */,
+				A40A4AA5233DB18300BE6C0B /* LaunchScreen.storyboard */,
+				A40A4AA8233DB18300BE6C0B /* Info.plist */,
+			);
+			path = XQSiriDemo;
+			sourceTree = "<group>";
+		};
+		A40A4AB3233DB1A700BE6C0B /* XQSiriDemoIntents */ = {
+			isa = PBXGroup;
+			children = (
+				A40A4AB4233DB1A700BE6C0B /* IntentHandler.swift */,
+				A40A4AB6233DB1A700BE6C0B /* Info.plist */,
+			);
+			path = XQSiriDemoIntents;
+			sourceTree = "<group>";
+		};
+		A40A4ABC233DB1A700BE6C0B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A40A4ABD233DB1A700BE6C0B /* IntentsUI.framework */,
+				3049AFF9F635037D3194A307 /* Pods_XQSiriDemo.framework */,
+				84E876A54A3A9DF23200B2C7 /* Pods_XQSiriDemoIntents.framework */,
+				E6E5B2661A69501A99E83D97 /* Pods_XQSiriDemoIntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A40A4ABF233DB1A700BE6C0B /* XQSiriDemoIntentsUI */ = {
+			isa = PBXGroup;
+			children = (
+				A40A4AC0233DB1A700BE6C0B /* IntentViewController.swift */,
+				A40A4AC2233DB1A700BE6C0B /* MainInterface.storyboard */,
+				A40A4AC5233DB1A700BE6C0B /* Info.plist */,
+			);
+			path = XQSiriDemoIntentsUI;
+			sourceTree = "<group>";
+		};
+		F43D0E18EC383F05E0CB2DD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E7AE6EEFA937DDD40460F6B /* Pods-XQSiriDemo.debug.xcconfig */,
+				98D531AC540AE57BEBD863D6 /* Pods-XQSiriDemo.release.xcconfig */,
+				FB75DA3CDB4751EDB7E3397D /* Pods-XQSiriDemoIntents.debug.xcconfig */,
+				8B121221CC2D5190209D7336 /* Pods-XQSiriDemoIntents.release.xcconfig */,
+				9206867A3585DAE66ED86869 /* Pods-XQSiriDemoIntentsUI.debug.xcconfig */,
+				FE43D2936D23406AADD98525 /* Pods-XQSiriDemoIntentsUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A40A4A98233DB18200BE6C0B /* XQSiriDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40A4AAB233DB18300BE6C0B /* Build configuration list for PBXNativeTarget "XQSiriDemo" */;
+			buildPhases = (
+				75E6DAE3E3E768707C7B1B73 /* [CP] Check Pods Manifest.lock */,
+				A40A4A95233DB18200BE6C0B /* Sources */,
+				A40A4A96233DB18200BE6C0B /* Frameworks */,
+				A40A4A97233DB18200BE6C0B /* Resources */,
+				A40A4AD2233DB1A700BE6C0B /* Embed App Extensions */,
+				A41A471E233F448900D7B8CB /* Embed Frameworks */,
+				490A1326C008AE7DE83F2B58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A40A4AC7233DB1A700BE6C0B /* PBXTargetDependency */,
+				A40A4ACA233DB1A700BE6C0B /* PBXTargetDependency */,
+			);
+			name = XQSiriDemo;
+			productName = XQSiriDemo;
+			productReference = A40A4A99233DB18200BE6C0B /* XQSiriDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A40A4AB1233DB1A700BE6C0B /* XQSiriDemoIntents */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40A4ACF233DB1A700BE6C0B /* Build configuration list for PBXNativeTarget "XQSiriDemoIntents" */;
+			buildPhases = (
+				992C4B3E66F8D0D6555F228E /* [CP] Check Pods Manifest.lock */,
+				A40A4AAE233DB1A700BE6C0B /* Sources */,
+				A40A4AAF233DB1A700BE6C0B /* Frameworks */,
+				A40A4AB0233DB1A700BE6C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XQSiriDemoIntents;
+			productName = XQSiriDemoIntents;
+			productReference = A40A4AB2233DB1A700BE6C0B /* XQSiriDemoIntents.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A40A4ABA233DB1A700BE6C0B /* XQSiriDemoIntentsUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A40A4ACC233DB1A700BE6C0B /* Build configuration list for PBXNativeTarget "XQSiriDemoIntentsUI" */;
+			buildPhases = (
+				FDCF52403217C1C8C31A5EF3 /* [CP] Check Pods Manifest.lock */,
+				A40A4AB7233DB1A700BE6C0B /* Sources */,
+				A40A4AB8233DB1A700BE6C0B /* Frameworks */,
+				A40A4AB9233DB1A700BE6C0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XQSiriDemoIntentsUI;
+			productName = XQSiriDemoIntentsUI;
+			productReference = A40A4ABB233DB1A700BE6C0B /* XQSiriDemoIntentsUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A40A4A91233DB18200BE6C0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = WXQ;
+				TargetAttributes = {
+					A40A4A98233DB18200BE6C0B = {
+						CreatedOnToolsVersion = 10.3;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					A40A4AB1233DB1A700BE6C0B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					A40A4ABA233DB1A700BE6C0B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = A40A4A94233DB18200BE6C0B /* Build configuration list for PBXProject "XQSiriDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A40A4A90233DB18200BE6C0B;
+			productRefGroup = A40A4A9A233DB18200BE6C0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A40A4A98233DB18200BE6C0B /* XQSiriDemo */,
+				A40A4AB1233DB1A700BE6C0B /* XQSiriDemoIntents */,
+				A40A4ABA233DB1A700BE6C0B /* XQSiriDemoIntentsUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A40A4A97233DB18200BE6C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A41A472F233F558A00D7B8CB /* test222.png in Resources */,
+				A40A4AA7233DB18300BE6C0B /* LaunchScreen.storyboard in Resources */,
+				A41A472C233F544500D7B8CB /* test111.png in Resources */,
+				A40A4AA4233DB18300BE6C0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40A4AB0233DB1A700BE6C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40A4AB9233DB1A700BE6C0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A4AC4233DB1A700BE6C0B /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		490A1326C008AE7DE83F2B58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XQSiriDemo/Pods-XQSiriDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XQSiriDemo/Pods-XQSiriDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XQSiriDemo/Pods-XQSiriDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75E6DAE3E3E768707C7B1B73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XQSiriDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		992C4B3E66F8D0D6555F228E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XQSiriDemoIntents-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDCF52403217C1C8C31A5EF3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XQSiriDemoIntentsUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A40A4A95233DB18200BE6C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4EE5A60233EEFB50077B54D /* Intents.intentdefinition in Sources */,
+				A41A4720233F44B300D7B8CB /* XQIntents.intentdefinition in Sources */,
+				A40A4A9F233DB18200BE6C0B /* ViewController.swift in Sources */,
+				A4AA1D32233F3ADD00D2C02E /* XQAllVoiceShortcutsVC.swift in Sources */,
+				A40A4A9D233DB18200BE6C0B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40A4AAE233DB1A700BE6C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A4AB5233DB1A700BE6C0B /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A40A4AB7233DB1A700BE6C0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A40A4AC1233DB1A700BE6C0B /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A40A4AC7233DB1A700BE6C0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A40A4ABA233DB1A700BE6C0B /* XQSiriDemoIntentsUI */;
+			targetProxy = A40A4AC6233DB1A700BE6C0B /* PBXContainerItemProxy */;
+		};
+		A40A4ACA233DB1A700BE6C0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A40A4AB1233DB1A700BE6C0B /* XQSiriDemoIntents */;
+			targetProxy = A40A4AC9233DB1A700BE6C0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A40A4AA5233DB18300BE6C0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40A4AA6233DB18300BE6C0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A40A4AC2233DB1A700BE6C0B /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A40A4AC3233DB1A700BE6C0B /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A40A4AA9233DB18300BE6C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A40A4AAA233DB18300BE6C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A40A4AAC233DB18300BE6C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7AE6EEFA937DDD40460F6B /* Pods-XQSiriDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XQSiriDemo/XQSiriDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYE5WA8QEX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XQSiriDemo",
+				);
+				INFOPLIST_FILE = XQSiriDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxqlm.XQSiriDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A40A4AAD233DB18300BE6C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98D531AC540AE57BEBD863D6 /* Pods-XQSiriDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = XQSiriDemo/XQSiriDemo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYE5WA8QEX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XQSiriDemo",
+				);
+				INFOPLIST_FILE = XQSiriDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxqlm.XQSiriDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A40A4ACD233DB1A700BE6C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9206867A3585DAE66ED86869 /* Pods-XQSiriDemoIntentsUI.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYE5WA8QEX;
+				INFOPLIST_FILE = XQSiriDemoIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxqlm.XQSiriDemo.XQSiriDemoIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A40A4ACE233DB1A700BE6C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE43D2936D23406AADD98525 /* Pods-XQSiriDemoIntentsUI.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYE5WA8QEX;
+				INFOPLIST_FILE = XQSiriDemoIntentsUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxqlm.XQSiriDemo.XQSiriDemoIntentsUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A40A4AD0233DB1A700BE6C0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB75DA3CDB4751EDB7E3397D /* Pods-XQSiriDemoIntents.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYE5WA8QEX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XQSiriDemo",
+				);
+				INFOPLIST_FILE = XQSiriDemoIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxqlm.XQSiriDemo.XQSiriDemoIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A40A4AD1233DB1A700BE6C0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B121221CC2D5190209D7336 /* Pods-XQSiriDemoIntents.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HYE5WA8QEX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/XQSiriDemo",
+				);
+				INFOPLIST_FILE = XQSiriDemoIntents/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wxqlm.XQSiriDemo.XQSiriDemoIntents;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A40A4A94233DB18200BE6C0B /* Build configuration list for PBXProject "XQSiriDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40A4AA9233DB18300BE6C0B /* Debug */,
+				A40A4AAA233DB18300BE6C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40A4AAB233DB18300BE6C0B /* Build configuration list for PBXNativeTarget "XQSiriDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40A4AAC233DB18300BE6C0B /* Debug */,
+				A40A4AAD233DB18300BE6C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40A4ACC233DB1A700BE6C0B /* Build configuration list for PBXNativeTarget "XQSiriDemoIntentsUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40A4ACD233DB1A700BE6C0B /* Debug */,
+				A40A4ACE233DB1A700BE6C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A40A4ACF233DB1A700BE6C0B /* Build configuration list for PBXNativeTarget "XQSiriDemoIntents" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A40A4AD0233DB1A700BE6C0B /* Debug */,
+				A40A4AD1233DB1A700BE6C0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A40A4A91233DB18200BE6C0B /* Project object */;
+}

@@ -39,6 +39,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             }
         }
         
+        XQTestObjOne().asd()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -116,4 +117,41 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     }
 
 }
+
+
+
+class XQTestObj: NSObject {
+    
+}
+
+class XQTestObjOne: XQTestObj, XQProtocolOne, XQProtocolTwo, XQProtocolThree {
+    var str: String = ""
+}
+
+
+protocol XQProtocolOne {
+    var str: String {get set}
+}
+
+protocol XQProtocolTwo: NSObjectProtocol {
+    func asd()
+}
+
+protocol XQProtocolThree: NSObjectProtocol {
+    func testsss()
+}
+
+extension XQProtocolOne where Self:XQProtocolTwo, Self:XQProtocolThree {
+    func asd() {
+        print("asd")
+    }
+    
+    func testsss() {
+        print("test")
+    }
+}
+
+
+
+
 

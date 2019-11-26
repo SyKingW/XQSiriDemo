@@ -22,7 +22,9 @@
 		A41A4720233F44B300D7B8CB /* XQIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A41A471F233F44B300D7B8CB /* XQIntents.intentdefinition */; };
 		A41A472C233F544500D7B8CB /* test111.png in Resources */ = {isa = PBXBuildFile; fileRef = A41A472B233F544400D7B8CB /* test111.png */; };
 		A41A472F233F558A00D7B8CB /* test222.png in Resources */ = {isa = PBXBuildFile; fileRef = A41A472E233F558A00D7B8CB /* test222.png */; };
+		A422A80D234033D70075E71C /* XQLMSiri.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A422A80C234033D70075E71C /* XQLMSiri.intentdefinition */; };
 		A4AA1D32233F3ADD00D2C02E /* XQAllVoiceShortcutsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AA1D31233F3ADD00D2C02E /* XQAllVoiceShortcutsVC.swift */; };
+		A4ED4CBE23693196006C3017 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4ED4CBD23693196006C3017 /* NetworkExtension.framework */; };
 		A4EE5A60233EEFB50077B54D /* Intents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A4EE5A5F233EEFB50077B54D /* Intents.intentdefinition */; };
 		E00A7D1781EA95504F616C75 /* Pods_XQSiriDemoIntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6E5B2661A69501A99E83D97 /* Pods_XQSiriDemoIntentsUI.framework */; };
 /* End PBXBuildFile section */
@@ -93,7 +95,9 @@
 		A41A471F233F44B300D7B8CB /* XQIntents.intentdefinition */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.intentdefinition; path = XQIntents.intentdefinition; sourceTree = "<group>"; };
 		A41A472B233F544400D7B8CB /* test111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test111.png; sourceTree = "<group>"; };
 		A41A472E233F558A00D7B8CB /* test222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test222.png; sourceTree = "<group>"; };
+		A422A80C234033D70075E71C /* XQLMSiri.intentdefinition */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.intentdefinition; path = XQLMSiri.intentdefinition; sourceTree = "<group>"; };
 		A4AA1D31233F3ADD00D2C02E /* XQAllVoiceShortcutsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XQAllVoiceShortcutsVC.swift; sourceTree = "<group>"; };
+		A4ED4CBD23693196006C3017 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
 		A4EE5A5E233EEF390077B54D /* XQSiriDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XQSiriDemo.entitlements; sourceTree = "<group>"; };
 		A4EE5A5F233EEFB50077B54D /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
 		E6E5B2661A69501A99E83D97 /* Pods_XQSiriDemoIntentsUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XQSiriDemoIntentsUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +111,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				27B6C549C55E2F0DF552B1E4 /* Pods_XQSiriDemo.framework in Frameworks */,
+				A4ED4CBE23693196006C3017 /* NetworkExtension.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -159,6 +164,7 @@
 				A40A4A9C233DB18200BE6C0B /* AppDelegate.swift */,
 				A40A4A9E233DB18200BE6C0B /* ViewController.swift */,
 				A4AA1D31233F3ADD00D2C02E /* XQAllVoiceShortcutsVC.swift */,
+				A422A80C234033D70075E71C /* XQLMSiri.intentdefinition */,
 				A41A471F233F44B300D7B8CB /* XQIntents.intentdefinition */,
 				A4EE5A5F233EEFB50077B54D /* Intents.intentdefinition */,
 				A41A472E233F558A00D7B8CB /* test222.png */,
@@ -182,6 +188,7 @@
 		A40A4ABC233DB1A700BE6C0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A4ED4CBD23693196006C3017 /* NetworkExtension.framework */,
 				A40A4ABD233DB1A700BE6C0B /* IntentsUI.framework */,
 				3049AFF9F635037D3194A307 /* Pods_XQSiriDemo.framework */,
 				84E876A54A3A9DF23200B2C7 /* Pods_XQSiriDemoIntents.framework */,
@@ -445,6 +452,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A4EE5A60233EEFB50077B54D /* Intents.intentdefinition in Sources */,
+				A422A80D234033D70075E71C /* XQLMSiri.intentdefinition in Sources */,
 				A41A4720233F44B300D7B8CB /* XQIntents.intentdefinition in Sources */,
 				A40A4A9F233DB18200BE6C0B /* ViewController.swift in Sources */,
 				A4AA1D32233F3ADD00D2C02E /* XQAllVoiceShortcutsVC.swift in Sources */,

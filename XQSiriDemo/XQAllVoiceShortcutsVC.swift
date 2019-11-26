@@ -104,6 +104,7 @@ class XQAllVoiceShortcutsVC: UIViewController, UITableViewDelegate, UITableViewD
         if let shortcut = INShortcut.init(intent: intent) {
             let vc = INUIAddVoiceShortcutViewController.init(shortcut: shortcut)
             vc.delegate = self
+            vc.modalPresentationStyle = .fullScreen
             self.present(vc, animated: true, completion: nil)
         }else {
             print("创建失败")
@@ -126,6 +127,7 @@ class XQAllVoiceShortcutsVC: UIViewController, UITableViewDelegate, UITableViewD
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let vc = INUIEditVoiceShortcutViewController.init(voiceShortcut: self.dataArr[indexPath.row])
         vc.delegate = self
+        vc.modalPresentationStyle = .fullScreen
         self.present(vc, animated: true, completion: nil)
     }
     
